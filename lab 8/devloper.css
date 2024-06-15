@@ -1,0 +1,41 @@
+.hw{
+	height: 100px;
+	
+}
+.logo{
+	float: left;
+	width: 25%;
+}
+.links{
+	float: right;
+}
+.img{
+	z-index: -1;
+	
+
+}
+.text{
+	position:absolute;
+	color: white;
+	z-index: 1;
+	margin-left: 16%;
+	top:200px;
+	left: 700px;
+}
+.textmain{
+	width: 100%;
+}
+.pmain{
+	float: bottom;
+	
+}
+.p{
+	float: left;
+	margin-left: 75px;
+	margin-right: 75px;
+	box-sizing: content-box;
+	height: 200px;
+	width: 300px;
+	border: 1px solid black;
+	
+}

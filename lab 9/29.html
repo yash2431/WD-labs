@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>animations 4</title>
+	<style type="text/css">
+		.main{
+			background-color: blue;
+			height: 1000px;
+			width: 1000px;
+		}
+		.square{
+			height: 60px;
+			width: 60px;
+			background-color: whitesmoke;
+			animation-duration: 10s;
+			animation-name: square;
+			border-radius: 100px;
+			position: absolute;
+		}
+		.ball{
+			height: 60px;
+			width: 60px;
+			background-color: black;
+			animation-duration: 5s;
+			animation-name: ball;
+			border-radius: 100px;
+			animation-radius: 100px;
+			position: absolute;
+		}
+
+		@keyframes square{
+			0%{
+				top: 500px;
+				left: 0px;
+			}
+			33.3333%{
+				top: 1000px;
+				left: 500px;
+			}
+			66.6666%{
+				top: 500px;
+				left: 1000px;
+			}
+			100%{
+				top: 500px;
+				left: 0px;				
+			}
+
+		@keyframes ball{
+			0%{
+				top: 500px;
+				left: 0px;
+			}
+			33.3333%{
+				top: 1000px;
+				left: 500px;
+			}
+			66.6666%{
+				top: 500px;
+				left: 1000px;
+			}
+			100%{
+				top: 500px;
+				left: 0px;				
+			}
+
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="square"></div>
+		<div class="ball"></div>
+	</div>
+</body>
+</html>
