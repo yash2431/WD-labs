@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>pseudo elements and classes</title>
+	<style type="text/css">
+		.link:active{
+			color: orange;
+		}
+		.link:visited{
+			color: red;
+		}
+		.para:first-line{
+			font-size: 10px;
+			color: blue;
+		}
+		.para:first-letter{
+			font-size: 20px;
+			color: darkgreen;
+		}
+		.ptext::selection{
+			background-color: yellow;
+		}
+		.ss:hover{
+			color: aqua;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="link1">
+		<a href="D:\WD">Click here</a>
+	</div>
+	<br>
+	<div class="para">
+	    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+	<br>
+	<div class="ptext">
+		Select particular text
+	</div>
+	<br>
+	<div class="ss">
+		Mouse over it...
+	</div>
+
+</body>
+</html>
